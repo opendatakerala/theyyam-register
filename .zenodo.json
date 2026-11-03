@@ -1,0 +1,53 @@
+{
+  "upload_type": "dataset",
+  "title": "Theyyam Register: An Inventory of Theyyam, the Intangible Cultural Heritage of North Malabar",
+  "version": "0.1.0-pre",
+  "publication_date": "2026-11-03",
+  "creators": [
+    {
+      "name": "Karingamadathil, Manoj"
+    },
+    {
+      "name": "Muzhappilangad, Shagil"
+    }
+  ],
+  "description": "<p>A list of 102 Theyyam deity forms of North Malabar that have a Wikidata item, with their Wikidata ID, Malayalam name and English name.</p><p><strong>Pre-release.</strong> This is the first dataset from the Theyyam Register, a larger list of about 365 theyyams with their performing communities, kavus and sources. This first release covers only the theyyams that already have a Wikidata item, so each row can be checked against Wikidata.</p><p>Published as part of the <strong>Wiki Loves Theyyam</strong> initiative.</p><p><strong>Contents</strong> (Frictionless Tabular Data Package):</p><ul><li><code>data/theyyam-wikidata.csv</code>: 102 rows, UTF-8. Fields: <code>wikidata_id</code>, <code>name_ml</code> (Malayalam name), <code>name_en</code> (English name).</li><li><code>datapackage.json</code>: metadata, licence, sources and table schema.</li><li><code>README.md</code>, <code>CITATION.cff</code>, <code>LICENSE.md</code>, <code>CHANGELOG.md</code>.</li></ul><p><strong>Sources:</strong> Malayalam Wikipedia (list of theyyams, തെയ്യങ്ങളുടെ പട്ടിക, and category വർഗ്ഗം:തെയ്യങ്ങൾ), English Wikipedia (Category:Theyyam) and Wikidata. English names cross-checked against Kerala Tourism, theyyamcalendar.com and TheyyamWiki.</p><p><strong>Known issues:</strong> a few Wikidata items are possible duplicates (e.g. two items for Poomaruthan), cover a group of theyyams, or may describe rituals rather than single theyyams. These are listed in the README.</p>",
+  "access_right": "open",
+  "license": "cc-zero",
+  "language": "mal",
+  "keywords": [
+    "Theyyam",
+    "തെയ്യം",
+    "Wiki Loves Theyyam",
+    "Wikidata",
+    "Kerala",
+    "North Malabar",
+    "Malayalam",
+    "ritual art",
+    "intangible cultural heritage",
+    "Frictionless Data Package"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/opendatakerala/theyyam-register",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://ml.wikipedia.org/wiki/തെയ്യങ്ങളുടെ_പട്ടിക",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://en.wikipedia.org/wiki/Category:Theyyam",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.wikidata.org/wiki/Q1639582",
+      "relation": "references",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Pre-release (0.1.0-pre). Prepared by Manoj Karingamadathil and Shagil Muzhappilangad for the Wiki Loves Theyyam initiative. Corrections: https://github.com/opendatakerala/theyyam-register/issues"
+}

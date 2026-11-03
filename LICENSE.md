@@ -1,6 +1,6 @@
 # CC0 1.0 Universal — Public Domain Dedication
 
-Theyyams on Wikidata, version 0.1.0-pre
+Theyyam Register: An Inventory of Theyyam, the Intangible Cultural Heritage of North Malabar, version 0.1.0-pre
 by Manoj Karingamadathil & Shagil Muzhappilangad, for Wiki Loves Theyyam
 https://doi.org/10.5281/zenodo.23895185
 

@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 type: dataset
-title: "Theyyams on Wikimedia"
+title: "Theyyam Register: An Inventory of Theyyam, the Intangible Cultural Heritage of North Malabar"
 abstract: "A list of 102 Theyyam deity forms of North Malabar that have a Wikidata item, with their Wikidata ID, Malayalam name and English name. Published as part of the Wiki Loves Theyyam initiative."
 authors:
   - family-names: Karingamadathil

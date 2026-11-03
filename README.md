@@ -1,4 +1,6 @@
-# Theyyams on Wikimedia (വിക്കിമീഡിയയിലെ തെയ്യങ്ങൾ)
+# Theyyam Register: An Inventory of Theyyam, the Intangible Cultural Heritage of North Malabar
+
+തെയ്യം രജിസ്റ്റർ: ഉത്തര മലബാറിന്റെ അമൂർത്ത സാംസ്കാരിക പൈതൃകമായ തെയ്യങ്ങളുടെ പട്ടിക
 
 **Version 0.1.0-pre (pre-release) · 3 November 2026 · Licence: CC0 1.0 · DOI: [10.5281/zenodo.23895185](https://doi.org/10.5281/zenodo.23895185)**
 
@@ -33,11 +35,23 @@ This is a **pre-release**. It is the first dataset from the Theyyam Register, a 
 
 Names and Wikidata IDs were compiled from:
 
+- Malayalam Wikipedia – [തെയ്യങ്ങളുടെ പട്ടിക](https://ml.wikipedia.org/wiki/തെയ്യങ്ങളുടെ_പട്ടിക), the list of theyyams
 - Malayalam Wikipedia – articles in [വർഗ്ഗം:തെയ്യങ്ങൾ](https://ml.wikipedia.org/wiki/വർഗ്ഗം:തെയ്യങ്ങൾ)
 - English Wikipedia – articles in [Category:Theyyam](https://en.wikipedia.org/wiki/Category:Theyyam)
 - Wikidata – items linked to those articles
+- English names cross-checked against Kerala Tourism, theyyamcalendar.com and TheyyamWiki
 
 Overview pages that describe theyyam in general were left out. These are *Theyyam*, *Mappila Theyyam*, *ഭഗവതി തെയ്യം* and the list page itself.
+
+## Known issues
+
+These are items to resolve on Wikidata before the full release:
+
+- **Possible duplicates.** Two Wikidata items exist for Poomaruthan: Q20581714 (*പൂമാരുതൻ തെയ്യം*) and Q20581703 (*പൂമാരുതൻ*). Q20581703's Malayalam article is marked for merging.
+- **Related items.** Angadaivam (Q13109807), Angakkaran (Q16133620) and *Angakkaranum Pappooranum* (Q13109813) are three items for closely related theyyams. Kundora Chamundi (Q13111304) and Kundadi Chamundi (Q13111301) are probably the same theyyam under two names.
+- **Group items.** Q16136267 (*മാരിത്തെയ്യങ്ങൾ*, Mari Theyyangal) covers a group of theyyams rather than one. Q20582865 (*മുക്രിത്തെയ്യം*, Mukri Theyyam) covers the Mukri figures of Mappila Theyyam.
+- **Uncertain status.** Q13113612 (ബലിക്കള), Q31704341 (ബപ്പിടൽ), Q31704318 (മഞ്ഞടുക്കം) and Q20574367 (ഉച്ചാരതെയ്യം) are filed under theyyams on Malayalam Wikipedia, but may describe rituals or festivals rather than single theyyams.
+- **Coverage.** Sources speak of about 400–456 theyyams; only about a quarter have a Wikidata item yet.
 
 ## Licence
 
@@ -45,4 +59,4 @@ To the extent possible under law, the compilers have dedicated this dataset to t
 
 ## How to cite
 
-> Karingamadathil, M., & Muzhappilangad, S. (2026). *Theyyams on Wikimedia* (version 0.1.0-pre) [Data set]. Wiki Loves Theyyam. Zenodo. https://doi.org/10.5281/zenodo.23895185
+> Karingamadathil, M., & Muzhappilangad, S. (2026). *Theyyam Register: An Inventory of Theyyam, the Intangible Cultural Heritage of North Malabar* (version 0.1.0-pre) [Data set]. Wiki Loves Theyyam. Zenodo. https://doi.org/10.5281/zenodo.23895185

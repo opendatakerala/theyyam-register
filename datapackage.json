@@ -2,7 +2,7 @@
   "profile": "tabular-data-package",
   "name": "theyyam-wikidata",
   "id": "https://doi.org/10.5281/zenodo.23895185",
-  "title": "Theyyams on Wikidata",
+  "title": "Theyyam Register: An Inventory of Theyyam, the Intangible Cultural Heritage of North Malabar",
   "description": "Theyyam deity forms of North Malabar that have a Wikidata item, with their Wikidata ID, Malayalam name and English name. Compiled from Malayalam and English Wikipedia and other sources. Published as part of the Wiki Loves Theyyam initiative. Pre-release.",
   "version": "0.1.0-pre",
   "created": "2026-11-03T00:00:00Z",

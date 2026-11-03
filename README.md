@@ -39,19 +39,8 @@ Names and Wikidata IDs were compiled from:
 - Malayalam Wikipedia – articles in [വർഗ്ഗം:തെയ്യങ്ങൾ](https://ml.wikipedia.org/wiki/വർഗ്ഗം:തെയ്യങ്ങൾ)
 - English Wikipedia – articles in [Category:Theyyam](https://en.wikipedia.org/wiki/Category:Theyyam)
 - Wikidata – items linked to those articles
-- English names cross-checked against Kerala Tourism, theyyamcalendar.com and TheyyamWiki
 
 Overview pages that describe theyyam in general were left out. These are *Theyyam*, *Mappila Theyyam*, *ഭഗവതി തെയ്യം* and the list page itself.
-
-## Known issues
-
-These are items to resolve on Wikidata before the full release:
-
-- **Possible duplicates.** Two Wikidata items exist for Poomaruthan: Q20581714 (*പൂമാരുതൻ തെയ്യം*) and Q20581703 (*പൂമാരുതൻ*). Q20581703's Malayalam article is marked for merging.
-- **Related items.** Angadaivam (Q13109807), Angakkaran (Q16133620) and *Angakkaranum Pappooranum* (Q13109813) are three items for closely related theyyams. Kundora Chamundi (Q13111304) and Kundadi Chamundi (Q13111301) are probably the same theyyam under two names.
-- **Group items.** Q16136267 (*മാരിത്തെയ്യങ്ങൾ*, Mari Theyyangal) covers a group of theyyams rather than one. Q20582865 (*മുക്രിത്തെയ്യം*, Mukri Theyyam) covers the Mukri figures of Mappila Theyyam.
-- **Uncertain status.** Q13113612 (ബലിക്കള), Q31704341 (ബപ്പിടൽ), Q31704318 (മഞ്ഞടുക്കം) and Q20574367 (ഉച്ചാരതെയ്യം) are filed under theyyams on Malayalam Wikipedia, but may describe rituals or festivals rather than single theyyams.
-- **Coverage.** Sources speak of about 400–456 theyyams; only about a quarter have a Wikidata item yet.
 
 ## Licence
 

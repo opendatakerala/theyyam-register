@@ -1,1 +1,48 @@
-# theyyam-register
+# Theyyams on Wikimedia (വിക്കിമീഡിയയിലെ തെയ്യങ്ങൾ)
+
+**Version 0.1.0-pre (pre-release) · 3 November 2026 · Licence: CC0 1.0 · DOI: [10.5281/zenodo.23895185](https://doi.org/10.5281/zenodo.23895185)**
+
+> A list of 102 Theyyam deity forms of North Malabar that have a Wikidata item, with their Wikidata ID, Malayalam name and English name.
+
+Published as part of the **Wiki Loves Theyyam** initiative.
+
+Prepared by: Manoj Karingamadathil & Shagil Muzhappilangad
+Repository: https://github.com/opendatakerala/theyyam-register
+Corrections: https://github.com/opendatakerala/theyyam-register/issues
+
+---
+
+This is a **pre-release**. It is the first dataset from the Theyyam Register, a larger list of about 365 theyyams with their performing communities, kavus and sources, which will follow. This first release covers only the theyyams that already have a Wikidata item, so each row can be checked against Wikidata.
+
+## Files
+
+| File | Contents |
+|---|---|
+| `datapackage.json` | [Frictionless Data Package](https://specs.frictionlessdata.io/tabular-data-package/) descriptor: metadata, licence, sources and the table schema. |
+| `data/theyyam-wikidata.csv` | The data: 102 rows, UTF-8, comma-separated, sorted by English name. |
+
+## Fields
+
+| Field | Title | Description |
+|---|---|---|
+| `wikidata_id` | Wikidata ID | Wikidata item ID (`Q…`). Unique; the primary key. Open as `https://www.wikidata.org/wiki/<id>`. |
+| `name_ml` | Malayalam name | The theyyam's name in Malayalam script. |
+| `name_en` | English name | A romanised English name. Spellings vary widely between sources; this is one common form. |
+
+## Sources
+
+Names and Wikidata IDs were compiled from:
+
+- Malayalam Wikipedia – articles in [വർഗ്ഗം:തെയ്യങ്ങൾ](https://ml.wikipedia.org/wiki/വർഗ്ഗം:തെയ്യങ്ങൾ)
+- English Wikipedia – articles in [Category:Theyyam](https://en.wikipedia.org/wiki/Category:Theyyam)
+- Wikidata – items linked to those articles
+
+Overview pages that describe theyyam in general were left out. These are *Theyyam*, *Mappila Theyyam*, *ഭഗവതി തെയ്യം* and the list page itself.
+
+## Licence
+
+To the extent possible under law, the compilers have dedicated this dataset to the public domain under **[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)**. You may copy, change and redistribute it, including commercially, without asking. Wikidata uses the same terms.
+
+## How to cite
+
+> Karingamadathil, M., & Muzhappilangad, S. (2026). *Theyyams on Wikimedia* (version 0.1.0-pre) [Data set]. Wiki Loves Theyyam. Zenodo. https://doi.org/10.5281/zenodo.23895185

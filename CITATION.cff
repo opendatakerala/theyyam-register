@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Theyyams on Wikimedia"
+abstract: "A list of 102 Theyyam deity forms of North Malabar that have a Wikidata item, with their Wikidata ID, Malayalam name and English name. Published as part of the Wiki Loves Theyyam initiative."
+authors:
+  - family-names: Karingamadathil
+    given-names: Manoj
+  - family-names: Muzhappilangad
+    given-names: Shagil
+version: 0.1.0-pre
+date-released: 2026-11-03
+doi: 10.5281/zenodo.23895185
+license: CC0-1.0
+repository-code: "https://github.com/opendatakerala/theyyam-register"
+keywords:
+  - Theyyam
+  - തെയ്യം
+  - Wiki Loves Theyyam
+  - Wikidata
+  - Kerala
+  - North Malabar
+  - intangible cultural heritage

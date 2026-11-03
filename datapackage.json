@@ -1,0 +1,111 @@
+{
+  "profile": "tabular-data-package",
+  "name": "theyyam-wikidata",
+  "id": "https://doi.org/10.5281/zenodo.23895185",
+  "title": "Theyyams on Wikidata",
+  "description": "Theyyam deity forms of North Malabar that have a Wikidata item, with their Wikidata ID, Malayalam name and English name. Compiled from Malayalam and English Wikipedia and other sources. Published as part of the Wiki Loves Theyyam initiative. Pre-release.",
+  "version": "0.1.0-pre",
+  "created": "2026-11-03T00:00:00Z",
+  "homepage": "https://github.com/opendatakerala/theyyam-register",
+  "keywords": [
+    "Theyyam",
+    "തെയ്യം",
+    "Wiki Loves Theyyam",
+    "Wikidata",
+    "Kerala",
+    "North Malabar",
+    "intangible cultural heritage"
+  ],
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "title": "Creative Commons Zero v1.0 Universal",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Manoj Karingamadathil",
+      "role": "author"
+    },
+    {
+      "title": "Shagil Muzhappilangad",
+      "role": "author"
+    },
+    {
+      "title": "Wiki Loves Theyyam",
+      "role": "publisher"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Malayalam Wikipedia – തെയ്യങ്ങളുടെ പട്ടിക",
+      "path": "https://ml.wikipedia.org/wiki/തെയ്യങ്ങളുടെ_പട്ടിക"
+    },
+    {
+      "title": "Malayalam Wikipedia – വർഗ്ഗം:തെയ്യങ്ങൾ",
+      "path": "https://ml.wikipedia.org/wiki/വർഗ്ഗം:തെയ്യങ്ങൾ"
+    },
+    {
+      "title": "English Wikipedia – Category:Theyyam",
+      "path": "https://en.wikipedia.org/wiki/Category:Theyyam"
+    },
+    {
+      "title": "Wikidata – Theyyam (Q1639582)",
+      "path": "https://www.wikidata.org/wiki/Q1639582"
+    }
+  ],
+  "resources": [
+    {
+      "name": "theyyam-wikidata",
+      "path": "data/theyyam-wikidata.csv",
+      "title": "Theyyams with a Wikidata item",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "header": true,
+        "lineTerminator": "\n"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "wikidata_id",
+            "title": "Wikidata ID",
+            "type": "string",
+            "format": "default",
+            "description": "Wikidata item ID. Resolve as https://www.wikidata.org/wiki/<id>.",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "^Q[1-9][0-9]*$"
+            },
+            "rdfType": "http://wikiba.se/ontology#Item"
+          },
+          {
+            "name": "name_ml",
+            "title": "Malayalam name",
+            "type": "string",
+            "description": "Name of the theyyam in Malayalam script.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "name_en",
+            "title": "English name",
+            "type": "string",
+            "description": "Romanised English name. Spellings vary between sources; this is one common form.",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": [
+          "wikidata_id"
+        ]
+      }
+    }
+  ]
+}
